@@ -1,3 +1,17 @@
-[gd_scene format=3 uid="uid://cs71idnl5xt1l"]
+[gd_scene load_steps=3 format=3 uid="uid://cs71idnl5xt1l"]
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_di153"]
+size = Vector2(10, 10)
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_avhv7"]
+points = PackedVector3Array(5.077377, 0.07933401, 5.077377, -5.077377, -0.07933401, -5.077377, -5.077377, 0.07933401, -5.077377, 5.077377, -0.07933401, -5.077377, -5.077377, -0.07933401, 5.077377, -5.077377, 0.07933401, 5.077377, 5.077377, 0.07933401, -5.077377, 5.077377, -0.07933401, 5.077377)
 
 [node name="LevelFragment" type="Node3D"]
+
+[node name="Ground" type="StaticBody3D" parent="."]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Ground"]
+mesh = SubResource("PlaneMesh_di153")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Ground"]
+shape = SubResource("ConvexPolygonShape3D_avhv7")

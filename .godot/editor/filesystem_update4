@@ -1,5 +1,1 @@
-res://Scenes/LevelFragment.tscn
 res://Scenes/Finger.tscn
-res://Scripts/finger.gd
-res://Scenes/fingerEnemy.tscn
-res://Scripts/finger_enemy.gd

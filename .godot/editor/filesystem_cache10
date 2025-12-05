@@ -1,8 +1,10 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1764955148
+::res://::1764956979
 ::res://Assets/::1764940021
-::res://Scenes/::1764955434
-Finger.tscn::PackedScene::1437567772146312934::1764955434::0::1::::<><><>0<>0<><>::
-LevelFragment.tscn::PackedScene::6103893747357179523::1764954843::0::1::::<><><>0<>0<><>::uid://uqmscbltnx0a::::res://Scenes/Finger.tscn
-finger.gd::GDScript::7733309108172335957::1764955489::0::1::::<>CharacterBody3D<><>0<>0<><>::
-::res://Scripts/::1764940026
+::res://Scenes/::1764958962
+Finger.tscn::PackedScene::1437567772146312934::1764957425::0::1::::<><><>0<>0<><>::uid://digcqawrnxyj2::::res://Scripts/finger.gd
+LevelFragment.tscn::PackedScene::6103893747357179523::1764955961::0::1::::<><><>0<>0<><>::uid://uqmscbltnx0a::::res://Scenes/Finger.tscn
+fingerEnemy.tscn::PackedScene::2124056099968980687::1764959125::0::1::::<><><>0<>0<><>::
+finger_enemy.gd::GDScript::4141422868048311660::1764959133::0::1::::<>CharacterBody3D<><>0<>0<><>::
+::res://Scripts/::1764957425
+finger.gd::GDScript::7733309108172335957::1764957425::0::1::::<>CharacterBody3D<><>0<>0<><>::

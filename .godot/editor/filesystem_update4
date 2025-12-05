@@ -1,1 +1,3 @@
 res://Scenes/LevelFragment.tscn
+res://Scenes/Finger.tscn
+res://Scripts/finger.gd

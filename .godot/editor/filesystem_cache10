@@ -1,6 +1,8 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1764940000
-LevelFragment.tscn::PackedScene::6103893747357179523::1764929984::0::1::::<><><>0<>0<><>::
-::res://Assets/::0
-::res://Scenes/::0
-::res://Scripts/::0
+::res://::1764955148
+::res://Assets/::1764940021
+::res://Scenes/::1764955434
+Finger.tscn::PackedScene::1437567772146312934::1764955434::0::1::::<><><>0<>0<><>::
+LevelFragment.tscn::PackedScene::6103893747357179523::1764954843::0::1::::<><><>0<>0<><>::uid://uqmscbltnx0a::::res://Scenes/Finger.tscn
+finger.gd::GDScript::7733309108172335957::1764955489::0::1::::<>CharacterBody3D<><>0<>0<><>::
+::res://Scripts/::1764940026
